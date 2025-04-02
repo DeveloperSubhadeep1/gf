@@ -1,3 +1,5 @@
+import logging
+import logging.config
 from dotenv import load_dotenv
 
 logging.getLogger("pymongo").setLevel(logging.WARNING)  # Suppresses DEBUG logs

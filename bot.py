@@ -1,5 +1,7 @@
 from dotenv import load_dotenv
 
+logging.getLogger("pymongo").setLevel(logging.WARNING)  # Suppresses DEBUG logs
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 load_dotenv(
     "config.env",
     override=True,

@@ -632,5 +632,5 @@ if __name__ == "__main__":
         pass
 
 
-    mergeApp.run(port=5050)
+    mergeApp.run()
 
